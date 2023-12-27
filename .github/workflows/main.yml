@@ -27,7 +27,7 @@ jobs:
     - uses: subosito/flutter-action@v2
       with:
         channel: 'stable'
-        architecture: arn
+        architecture: arm
     - run: flutter pub get
     - run: flutter test
     - run: flutter build ios --release --no-codesign
